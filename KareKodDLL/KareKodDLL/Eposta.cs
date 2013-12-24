@@ -57,12 +57,12 @@ namespace KareKodDLL
         }
         public Eposta()
         {
-            GonderenMail = "bemardeneme@gmail.com";
-            GonderenSifre = "bemar123456";
+            GonderenMail = "emailadresi.com";
+            GonderenSifre = "sifre";
             SunucuPort = 587;
             SunucuGuvenlikDurumu = true;
             SunucuAdi = "smtp.gmail.com";
-            GonderenAdi = "BEMAR KARİYER OKULLARI";
+            GonderenAdi = "KONU BASLIGI";
         }
         public Eposta(string mailadres, string sifre, string hostname, int portno, bool sslDurum, string gorunenAd)
         {
